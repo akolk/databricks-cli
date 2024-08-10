@@ -1,5 +1,5 @@
 # Use an official Python image as the base
-FROM python:3.8-slim
+FROM python:3.12-slim
 
 # Install the Databricks CLI
 RUN pip install databricks-cli
