@@ -8,6 +8,7 @@
     "enabled": true,
      "fileMatch": ["\\.yml$", "\\.yaml$"]
   },
+  "labels": ["update", "renovate"],
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "pin", "digest"],
